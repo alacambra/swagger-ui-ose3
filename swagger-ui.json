@@ -63,7 +63,7 @@
             "name": "centos"
          },
          "spec": {
-            "dockerImageRepository": "library/centos:7"
+            "dockerImageRepository": "centos:7"
          }
       },
       {
