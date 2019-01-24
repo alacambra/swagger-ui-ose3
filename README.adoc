@@ -4,7 +4,7 @@ This project deploys a Swagger UI into OpenShift 3, and it will connect to the O
 
 ----
 oc new-project swagger
-oc create -f https://raw.githubusercontent.com/jorgemoralespou/swagger-ui-ose3/master/swagger-ui.json
+oc create -f https://raw.githubusercontent.com/alacambra/swagger-ui-ose3/master/swagger-ui.json
 ----
 
 By default the route will be swaggerui.example.com. You can change it to match your domain. (Change the hostname for the route)
