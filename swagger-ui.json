@@ -33,7 +33,7 @@
             "source": {
                "type": "Git",
                "git": {
-                  "uri": "https://github.com/jorgemoralespou/swagger-ui-ose3.git",
+                  "uri": "https://github.com/alacambra/swagger-ui-ose3.git",
                   "ref": "master"
                },
                "contextDir": ""
@@ -43,7 +43,7 @@
                "dockerStrategy": {
                   "from": {
                      "kind": "ImageStreamTag",
-                     "name": "centos:7"
+                     "name": "centos"
                   }
                }
             },
@@ -63,7 +63,7 @@
             "name": "centos"
          },
          "spec": {
-            "dockerImageRepository": "centos:7"
+            "dockerImageRepository": "centos"
          }
       },
       {
